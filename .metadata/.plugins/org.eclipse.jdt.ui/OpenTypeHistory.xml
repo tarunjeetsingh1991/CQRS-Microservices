@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=demo/\/Users\/tjsingh\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.4.4.Final\/hibernate-core-6.4.4.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.4.4.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="1048609" timestamp="1707398464000"/>
+    <typeInfo handle="=bootjpaexample/\/Users\/tjsingh\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.5.3.Final\/hibernate-core-6.5.3.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.5.3.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="1048609" timestamp="1726677317000"/>
+    <typeInfo handle="=com.springrest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springrest.services{CourseService.java[CourseService" modifiers="513" timestamp="1728059282000"/>
+</typeInfoHistroy>

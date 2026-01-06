@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "spring.kafka.consumer.bootstrap-servers",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.bootstrap-servers'"
+  },
+  {
+    "name": "spring.kafka.consumer.key-deserializer",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.key-deserializer'"
+  },
+  {
+    "name": "spring.kafka.consumer.value-deserializer",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.value-deserializer'"
+  },
+  {
+    "name": "spring.kafka.consumer.properties.spring.json.trusted.packages",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.properties.spring.json.trusted.packages'"
+  },
+  {
+    "name": "spring.kafka.consumer.group-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.group-id'"
+  },
+  {
+    "name": "spring.kafka.consumer.auto-offset-reset",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.auto-offset-reset'"
+  },
+  {
+    "name": "spring.kafka.consumer.properties.spring.json.value.default.type",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.properties.spring.json.value.default.type'"
+  },
+  {
+    "name": "spring.kafka.listener.missing-topics-fatal",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.listener.missing-topics-fatal'"
+  }
+]}

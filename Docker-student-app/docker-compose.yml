@@ -1,0 +1,35 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8090:8090"
+    networks:
+      - s-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+         
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: tarun
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_DB: telusko
+    ports:
+      - "5433:5432"
+    networks:
+      - s-network
+    volumes:
+      - postgres-s-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tarun"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      
+networks:
+  s-network:
+    driver: bridge
+    
+volumes:
+  postgres-s-data:

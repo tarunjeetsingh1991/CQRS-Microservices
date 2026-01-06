@@ -1,0 +1,13 @@
+package com.javatechie.service;
+
+@Service
+public class ProductQueryService 
+{
+
+    @Autowired
+    private ProductRepository repository;
+
+    public List<Product> getProducts() {
+        return repository.findAll();
+    }
+}

@@ -1,0 +1,54 @@
+package string;
+
+import java.util.Stack;
+
+public class ValidParenthesis 
+{
+	public static boolean isBalanced(String s)
+	{
+		Stack<Character> st = new Stack<>();
+		
+		for(char c : s.toCharArray())
+		{
+			if (c == '(' || c == '{' || c == '[') 
+            {
+                st.push(c);
+            }
+			else if (c == ')' || c == '}' || c == ']')
+			{
+				if(st.isEmpty())
+					return false;
+				
+				char top = st.peek();
+				
+				if((c == '(' && top != ')') ||  (c == '{' && top != '}') || (c == '[' && top != ']'))
+					return false;
+				
+				st.pop();
+			}
+		}
+		
+		return st.isEmpty();
+	}
+	public static void main(String[] args) 
+	{
+		String s1 = "[()()]{}";
+        System.out.println((isBalanced(s1) ? "true" : "false"));
+        
+        String s2 = "[{{()()}}]";
+        System.out.println((isBalanced(s2) ? "true" : "false"));
+        
+        String s3 = "";
+        System.out.println((isBalanced(s3) ? "true" : "false"));
+        
+        String s4 = ")(";
+        System.out.println((isBalanced(s4) ? "true" : "false"));
+        
+        String s5 = "(]";
+        System.out.println((isBalanced(s5) ? "true" : "false"));
+        
+        String s6 = "([)]";
+        System.out.println((isBalanced(s6) ? "true" : "false"));
+	}
+
+}

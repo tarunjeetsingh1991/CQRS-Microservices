@@ -1,0 +1,19 @@
+package com.javatechie.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.javatechie.entity.Product;
+import com.javatechie.repository.ProductRepository;
+
+@Service
+public class ProductCommandService 
+{
+	 @Autowired
+	 private ProductRepository repo;
+	 
+	 public Product createProduct(Product product)
+	 {
+		 return repo.save(product);
+	 }
+}

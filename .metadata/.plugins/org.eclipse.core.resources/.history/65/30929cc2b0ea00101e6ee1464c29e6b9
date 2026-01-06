@@ -1,0 +1,20 @@
+package com.javatechie.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.javatechie.entity.Product;
+import com.javatechie.repository.ProductRepository;
+
+@Service
+public class ProductQueryService 
+{
+    @Autowired
+    private ProductRepository repository;
+
+    public List<Product> getProducts() {
+        return repository.findAll();
+    }
+}

@@ -1,7 +1,0 @@
-INDEX VERSION 1.134
-/Users/tjsingh/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/741247321.index
-/SpringBootWeb1/src/main/java
-/Users/tjsingh/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1982304655.index
-/SpringBootWeb1/src/main/java
-/Users/tjsingh/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4258626965.index
-/firststsproject/src/main/java

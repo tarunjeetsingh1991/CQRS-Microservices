@@ -1,9 +1,0 @@
-package com.javatechie.service;
-
-
-@Service
-public class ProductCommandService 
-{
-	 @Autowired
-	 private ProductRepository repository;
-}

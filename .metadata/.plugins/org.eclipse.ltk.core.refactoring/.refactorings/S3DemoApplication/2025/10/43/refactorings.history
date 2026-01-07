@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;application-local.properties&apos; to &apos;S3DemoApplication/src/main/resources&apos;&#x0A;- Original project: &apos;S3DemoApplication&apos;&#x0A;- Destination element: &apos;S3DemoApplication/src/main/resources&apos;&#x0A;- Original element: &apos;application-local.properties&apos;" description="Copy file" destination="/src\/main\/resources=/maven.pomderived=/true=/=/optional=/true=/" element1="src/main/resources/application-local.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1761248237848" units="0" version="1.0"/>
-</session>
